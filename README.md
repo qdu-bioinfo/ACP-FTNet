@@ -9,8 +9,8 @@ Firstly, you need to create a virtual environment and set python==3.8
 conda create --name yourEnv python=3.8
 conda activate yourEnv
 ```
-Then, if you want to run this model, please install package in requirements.txt file
+Then, if you want to run this model, please install package in environment.txt file
 ```
-pip install -r requirements.txt
+pip install -r environment.txt
 ```
 Finally, we could utilize the ACP-FTNet model.
