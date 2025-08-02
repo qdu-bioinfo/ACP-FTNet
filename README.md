@@ -3,7 +3,7 @@ The identification and characterization of anticancer peptides (ACPs) has emerge
 In this study, we introduce a new model, a novel framework for the prediction of anticancer peptides that employs a comprehensive feature extraction strategy, integrating amino acid composition and physicochemical properties. By combining representations using convolutional neural networks with those based on Transformer encoding layers, the model can capture diverse features of peptides better and more quickly. Its architecture utilizes bidirectional long-short-term memory (Bi-LSTM) networks, leveraging their strengths in capturing local sequence patterns and long-range dependencies.
 We tested the new model on six public datasets and the experimental results demonstrate that the new model exhibits strong robustness and is more competitive than the compared methods, particularly in terms of AUC and ACC.
 # How do we use ACP-FTNet?
-## 1.Environment setup 
+## Environment setup 
 Firstly, you need to create a virtual environment and set python==3.8
 ```
 conda create --name yourEnv python=3.8
